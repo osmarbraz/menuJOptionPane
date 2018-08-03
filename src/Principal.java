@@ -1,6 +1,6 @@
 
 /**
- * Programa que utiliza JOptionPane para construir um menu de opções.
+ * Implementação de exemplo que utiliza JOptionPane para construir um menu de opções.
  */
 
 import javax.swing.JOptionPane;
