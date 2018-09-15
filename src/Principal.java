@@ -39,6 +39,7 @@ public class Principal {
                     JOptionPane.showMessageDialog(null, "A área do triângulo: " + area);
                     break;
                 }
+                
                 //Outras opções vão aqui
 
                 //Opção de saída do programa
