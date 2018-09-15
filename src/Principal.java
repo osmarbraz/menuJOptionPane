@@ -2,7 +2,6 @@
 /**
  * Implementação de exemplo que utiliza JOptionPane para construir um menu de opções.
  */
-
 import javax.swing.JOptionPane;
 
 public class Principal {
@@ -17,7 +16,7 @@ public class Principal {
         int opcao = -1;
         while (opcao != 99) {
             //Realiza a leitura da opção
-            opcao = Integer.parseInt(JOptionPane.showInputDialog("\t### Menu de Opções ###\n"                    
+            opcao = Integer.parseInt(JOptionPane.showInputDialog("\t### Menu de Opções ###\n"
                     + " 1- Leitura dos dados\n"
                     + " 2- Impressão dos dados\n"
                     //Outras opções vão aqui
@@ -52,7 +51,7 @@ public class Principal {
                     System.out.println("Opção inválida!");
                     break;
                 }
-            }
-        }
-    }
+            }//Fim Switch
+        }//Fim While
+    }//Fim Main
 }
