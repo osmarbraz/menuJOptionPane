@@ -14,7 +14,7 @@ public class Principal {
 
         //Armazena opção lida
         int opcao = -1;
-        while (opcao != 99) {
+        do {
             //Realiza a leitura da opção
             opcao = Integer.parseInt(JOptionPane.showInputDialog("\t### Menu de Opções ###\n"
                     + " 1- Leitura dos dados\n"
@@ -53,6 +53,6 @@ public class Principal {
                     break;
                 }
             }//Fim Switch
-        }//Fim While
+        } while (opcao != 99); //Fim do while
     }//Fim Main
 }
